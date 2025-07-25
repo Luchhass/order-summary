@@ -1,84 +1,85 @@
 * {
-    font-family: "Red Hat Display", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-body {
-    background-color: #E0E8FF;
-}
-.group {
-   margin: 100px auto;
-    background-color: white;
-    width: 450px;
-    text-align: center;
-    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.3);
-    border-bottom-left-radius: 60px;
-    border-radius: 20px;
 
+html,
+body {
+  background-color: #e0e8ff;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.group {
+  background-color: white;
+  width: 450px;
+  text-align: center;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.3);
+  border-bottom-left-radius: 60px;
+  border-radius: 20px;
 }
 
 .group img {
-    margin-bottom: 10px;
-    background-color: white;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  height: auto;
 }
 
 .table h2 {
-    color: #1F2E55;
-    font-weight: 900;
-    font-size: 28px;
-    background-color: white;
+  color: #1f2e55;
+  font-weight: 900;
+  font-size: 28px;
+  margin-top: 20px;
+  background-color: white;
 }
 
 .table p {
-    color: #717FA6;
-    font-weight: 500;
-    font-size: 16px;
-    background-color: white;
-    margin-bottom: 44px;
+  color: #717fa6;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: white;
+  margin: 16px 0 44px;
 }
 
 .button1 {
-    background-color: #382AE1;
-    border: none; 
-    color: white; 
-    padding: 13px 110px; 
-    text-align: center; 
-    text-decoration: none; 
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 12px; 
-    cursor: pointer; 
-    transition: background-color 0.3s;
-    box-shadow: 0px 10px 20px rgba(56, 42, 225, 0.3);
-    border: 2px solid transparent;
+  background-color: #382ae1;
+  border: none;
+  color: white;
+  padding: 13px 110px;
+  font-size: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  box-shadow: 0px 10px 20px rgba(56, 42, 225, 0.3);
+  border: 2px solid transparent;
 }
 
 .button1:hover {
-    background-color: white;
-    color: #382AE1;
-    border-color: #382AE1;
+  background-color: white;
+  color: #382ae1;
+  border-color: #382ae1;
 }
 
 .button2 {
-    background-color: white;
-    border: none; 
-    color: #717FA6; 
-    padding-right: 110px;
-    padding-left: 110px;
-    padding-bottom: 13px;
-    text-align: center; 
-    text-decoration: none; 
-    font-size: 16px;
-    border-radius: 12px; 
-    cursor: pointer; 
-    transition: color 0.3s;
-    margin-bottom: 30px;
-    padding-bottom: 50px;
-    border-radius: 20px;
+  background-color: white;
+  color: #717fa6;
+  padding: 20px 0 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s;
+  border-radius: 20px;
 }
 
 .button2:hover {
-    color: #382AE1;
-    background-color: white;
+  color: #382ae1;
 }
-
